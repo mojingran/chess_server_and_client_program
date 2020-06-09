@@ -107,7 +107,7 @@ void drawPieces() {
 }
 
 void pawnPromotion(){
-  if(myTurn==false){
+  if(myTurn==false){//detect if there is pawn on the edge
  for(int c=0;c<8;c++){
   if(grid[0][c]=='p'){
     fill(0);
